@@ -25,8 +25,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Testing
   gem 'rspec-rails'
+  gem 'capybara-rails'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', :require => false
 
   # Linting
   gem 'rubocop'
